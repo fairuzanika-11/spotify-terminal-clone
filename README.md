@@ -30,3 +30,12 @@ brew install sdl2
 
 # Ensure you have Python 3
 python3 --version
+## 🎧 How to Run
+You need **two terminal windows** open at the same time.
+
+### Step 1: Start the Server (Terminal 1)
+This acts as the radio station.
+```bash
+python3 server.py song.wav
+### Step 2: Start the Client (Terminal 2)
+./my_spotify
